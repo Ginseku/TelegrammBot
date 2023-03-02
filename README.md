@@ -1,5 +1,12 @@
-Telegramm Bot
+## Deployment
+Deployment process as easy as possible:
+Required software:
+- terminal for running bash scripts
+- docker
+- docker-compose
 
-JRTB - 1 --- +
+to deploy application, switch to needed branch and run bash script:
 
-JRTB - 2 --- 
+$ bash start.sh ${bot_username} ${bot_token}
+
+That's all.
